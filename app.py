@@ -2,15 +2,16 @@ import streamlit as st
 from pathlib import Path
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="ชุมชนการเรียนรู้ภาษาไทย - Thai Learning Community", layout="wide")
+st.set_page_config(page_title="Thai Learning Community", layout="wide")
+st.image("assets/banner.jpg", use_column_width=True)
 
 # --- Replace with your actual Google Form EMBED URL ---
-GOOGLE_FORM_EMBED_URL = "https://docs.google.com/forms/d/e/your-embed-form-link/viewform?embedded=true"
+GOOGLE_FORM_EMBED_URL = "https://forms.gle/QoXLDN8dbepnWZRv6"
 
 # --- Title and Welcome ---
-st.title("ยินดีต้อนรับสู่ชุมชนการเรียนรู้ภาษาไทย!")
-st.subheader("Welcome to the Thai Learning Community")
-st.write("Discover past moments from our events and register to join our growing family of Thai learners.")
+st.title("Welcome to the Faen Club!")
+st.subheader("This is a test repo")
+st.write("Discover past moments from our events and register to join our community.")
 
 # --- Sidebar Navigation ---
 st.sidebar.title("เมนู | Menu")
